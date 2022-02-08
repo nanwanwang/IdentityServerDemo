@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="4.0.0" />
+    
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.1.5" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="IdpClient\**" />
+    <Compile Remove="IdpApi\**" />
+    <Compile Remove="IdpWpfClient\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="IdpClient\**" />
+    <EmbeddedResource Remove="IdpApi\**" />
+    <EmbeddedResource Remove="IdpWpfClient\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="IdpClient\**" />
+    <None Remove="IdpApi\**" />
+    <None Remove="IdpWpfClient\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="IdpClient\**" />
+    <Content Remove="IdpApi\**" />
+    <Content Remove="IdpWpfClient\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="IdpClient\obj\IdpClient.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="IdpClient\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="IdpClient\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="IdpApi\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="IdpApi\appsettings.json" />
+    <_ContentIncludedByDefault Remove="IdpApi\obj\IdpApi.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="IdpApi\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="IdpApi\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="IdpApi\Properties\launchSettings.json" />
+    <_ContentIncludedByDefault Remove="IdpWpfClient\obj\IdpWpfClient.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="IdpWpfClient\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="IdpWpfClient\obj\project.packagespec.json" />
+  </ItemGroup>
+
+</Project>
