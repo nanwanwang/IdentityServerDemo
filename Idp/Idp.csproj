@@ -15,24 +15,28 @@
     <Compile Remove="IdpClient\**" />
     <Compile Remove="IdpApi\**" />
     <Compile Remove="IdpWpfClient\**" />
+    <Compile Remove="MvcClient\**" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Remove="IdpClient\**" />
     <EmbeddedResource Remove="IdpApi\**" />
     <EmbeddedResource Remove="IdpWpfClient\**" />
+    <EmbeddedResource Remove="MvcClient\**" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="IdpClient\**" />
     <None Remove="IdpApi\**" />
     <None Remove="IdpWpfClient\**" />
+    <None Remove="MvcClient\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="IdpClient\**" />
     <Content Remove="IdpApi\**" />
     <Content Remove="IdpWpfClient\**" />
+    <Content Remove="MvcClient\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,6 +52,19 @@
     <_ContentIncludedByDefault Remove="IdpWpfClient\obj\IdpWpfClient.csproj.nuget.dgspec.json" />
     <_ContentIncludedByDefault Remove="IdpWpfClient\obj\project.assets.json" />
     <_ContentIncludedByDefault Remove="IdpWpfClient\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="MvcClient\Views\Home\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="MvcClient\Views\Home\Privacy.cshtml" />
+    <_ContentIncludedByDefault Remove="MvcClient\Views\Shared\Error.cshtml" />
+    <_ContentIncludedByDefault Remove="MvcClient\Views\Shared\_Layout.cshtml" />
+    <_ContentIncludedByDefault Remove="MvcClient\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <_ContentIncludedByDefault Remove="MvcClient\Views\_ViewImports.cshtml" />
+    <_ContentIncludedByDefault Remove="MvcClient\Views\_ViewStart.cshtml" />
+    <_ContentIncludedByDefault Remove="MvcClient\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="MvcClient\appsettings.json" />
+    <_ContentIncludedByDefault Remove="MvcClient\obj\MvcClient.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="MvcClient\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="MvcClient\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="MvcClient\Properties\launchSettings.json" />
   </ItemGroup>
 
 </Project>

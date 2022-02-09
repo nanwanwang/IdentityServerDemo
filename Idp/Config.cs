@@ -58,6 +58,19 @@ namespace Idp
                         IdentityServerConstants.StandardScopes.Address
                     }
                     
+                },
+                new Client()
+                {
+                    ClientId = "mvc client",
+                    ClientName = "ASP.NET Core MVC Client",
+                    AllowedGrantTypes = GrantTypes.Code,
+                    ClientSecrets = {new Secret("mvc secret".Sha256())},
+                    RedirectUris = { "http://localhost:5002/signin-oidc" },
+                    FrontChannelLogoutUri = "http://localhost:5002/signout-oidc",
+                    PostLogoutRedirectUris = { "http://localhost:5002/signout-callback-oidc" },
+                    
+                    AllowOfflineAccess = true,
+                    AllowedScopes = { "openid", "profile" }
                 }
 
                 // interactive client using code flow + pkce

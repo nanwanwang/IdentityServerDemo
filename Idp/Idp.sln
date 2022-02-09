@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdpApi", "IdpApi\IdpApi.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdpWpfClient", "IdpWpfClient\IdpWpfClient.csproj", "{3DB37899-156A-49DE-8E15-0012FDE4D852}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient", "MvcClient\MvcClient.csproj", "{8119F8A7-D2A8-485A-81B1-93A3FCD22F3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3DB37899-156A-49DE-8E15-0012FDE4D852}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DB37899-156A-49DE-8E15-0012FDE4D852}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DB37899-156A-49DE-8E15-0012FDE4D852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8119F8A7-D2A8-485A-81B1-93A3FCD22F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8119F8A7-D2A8-485A-81B1-93A3FCD22F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8119F8A7-D2A8-485A-81B1-93A3FCD22F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8119F8A7-D2A8-485A-81B1-93A3FCD22F3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
